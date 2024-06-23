@@ -2,7 +2,9 @@
 
 ![Illustration de l'auteur](./img/pharallaxe.png)
 
-Cette application permet de centraliser et d'organiser des CVs en créant des dossiers pour chaque entreprise listée dans un fichier Excel. Pour chaque entreprise, un fichier `prenoms.txt` est généré avec la liste des prénoms associés, et les CV correspondants sont copiés dans le dossier de l'entreprise.
+Cette application permet de centraliser et d'organiser des CVs. L'utilisateur doit créer un fichier Excel nommé `tableur_cv.xlsx` où il va inscrire les noms des entreprises et des prénoms dans les colonnes. Les personnes inscriront un "X" majuscule dans les cases qui correspondent à leur prénom et à la ligne de l'entreprise pour indiquer l'association.
+
+L'application lit ce tableau et pour chaque entreprise, elle crée un dossier portant le nom de l'entreprise. Ensuite, elle copie les CV correspondants dans ce dossier et génère un fichier prenoms.txt listant les prénoms associés.
 
 ## Licence
 Ce projet est sous licence [Apache](./LICENSE).
