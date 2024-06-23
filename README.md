@@ -52,8 +52,8 @@ Le fichier Excel tableur_cv.xlsx doit suivre ce format :
 |------------------|----------|----------|----------|
 | **Entreprise 1** |    X     |          |          |
 | **Entreprise 2** |          |    X     |     X    |
-| **Entreprise 3** |   X      |          |     X    |
-| **Entreprise 4** |   X      |    X     |     X    |
+| **Entreprise 3** |    X     |          |     X    |
+| **Entreprise 4** |    X     |    X     |     X    |
 
 
 - Première colonne : Noms des entreprises.
