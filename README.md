@@ -92,7 +92,3 @@ Après l'exécution du script, la structure des dossiers devrait ressembler à c
 ## Notes
 Assurez-vous que les noms des CVs correspondent au format Nom.pdf tel que décrit.
 Le script vérifie l'existence des fichiers de CV avant de les copier et génère un message d'erreur si un fichier est introuvable.
-
-## Téléchargement direct
-Vous pouvez télécharger le fichier `README.md` ici :
-[Download README.md](sandbox:/mnt/data/README.md)
