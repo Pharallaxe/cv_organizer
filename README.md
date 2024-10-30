@@ -17,14 +17,68 @@ Ce projet est sous licence [Apache](./LICENSE).
 
 ## Prérequis
 
-- Python 3.x
-- Bibliothèque Python : `openpyxl`
+Avant de commencer, assurez-vous que vous avez les éléments suivants :
 
-## Installation
+- **Python 3.x** : Vérifiez que Python est installé sur votre système. Vous pouvez le télécharger depuis le site officiel de Python.
+- **Bibliothèque Python : `openpyxl`** : Cette bibliothèque est nécessaire pour manipuler des fichiers Excel.
 
-1. Clonez ce dépôt ou téléchargez les fichiers.
-2. Assurez-vous d'avoir la bibliothèque nécessaire :
+## Installation de Python 3.x et `openpyxl`
 
+### Étape 1 : Télécharger Python
+
+1. **Visitez le site officiel de Python** :
+   - Allez sur [python.org](https://www.python.org/downloads/) et téléchargez la dernière version de Python 3.x pour votre système d'exploitation (Windows, macOS, ou Linux).
+
+### Étape 2 : Installer Python
+
+#### Pour Windows :
+
+1. **Exécutez l'installateur** :
+   - Localisez le fichier téléchargé (généralement dans le dossier *Téléchargements*) et double-cliquez dessus.
+   
+2. **Configurer l'installation** :
+   - Lors de l'installation, cochez la case "Add Python to PATH" pour faciliter l'accès à Python depuis la ligne de commande.
+   
+3. **Terminer l'installation** :
+   - Cliquez sur "Install Now" et suivez les instructions à l'écran.
+
+4. **Vérifier l'installation** :
+   - Ouvrez une invite de commande et tapez `python --version` pour vous assurer que Python est installé correctement.
+
+#### Pour macOS :
+
+1. **Exécutez l'installateur** :
+   - Double-cliquez sur le fichier .pkg téléchargé.
+
+2. **Suivez les instructions** :
+   - Acceptez les termes et conditions, puis cliquez sur "Installer".
+
+3. **Vérifier l'installation** :
+   - Ouvrez le Terminal et tapez `python3 --version` pour vérifier que Python est installé.
+
+#### Pour Linux :
+
+1. **Utiliser le gestionnaire de paquets** :
+   - Ouvrez un terminal et exécutez les commandes suivantes selon votre distribution :
+     - Pour Ubuntu/Debian :
+       ```bash
+       sudo apt-get update
+       sudo apt-get install python3
+       ```
+     - Pour Fedora :
+       ```bash
+       sudo dnf install python3
+       ```
+
+2. **Vérifier l'installation** :
+   - Tapez `python3 --version` dans le terminal.
+
+### Étape 3 : Installer la bibliothèque `openpyxl`
+
+Une fois Python installé, vous devez installer la bibliothèque `openpyxl`. Cela peut être fait en utilisant `pip`, qui est généralement installé avec Python.
+
+1. **Ouvrir une invite de commande ou un terminal**.
+2. **Exécuter la commande suivante** :
 ```bash
 pip install openpyxl
 ```
